@@ -5,6 +5,7 @@ return [
      * Application service providers.
      */
     App\Providers\AppServiceProvider::class,
+    ba6ul\Razorpay\Providers\RazorpayServiceProvider::class,
 
     /**
      * Webkul's service providers.
@@ -43,4 +44,6 @@ return [
     Webkul\Tax\Providers\TaxServiceProvider::class,
     Webkul\Theme\Providers\ThemeServiceProvider::class,
     Webkul\User\Providers\UserServiceProvider::class,
+
+    ba6ul\RazorPay\Providers\RazorpayServiceProvider::class,
 ];

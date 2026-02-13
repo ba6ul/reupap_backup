@@ -1,6 +1,6 @@
 <?php
 
-namespace Reupap\Razorpay\Http\Controllers\Shop;
+namespace ba6ul\Razorpay\Http\Controllers\Shop;
 
 use Illuminate\View\View;
 use Webkul\Shop\Http\Controllers\Controller;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Reupap\Razorpay\Providers;
+namespace ba6ul\Razorpay\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Event;
@@ -43,11 +43,13 @@ class RazorpayServiceProvider extends ServiceProvider
     protected function registerConfig()
     {
         $this->mergeConfigFrom(
-            dirname(__DIR__) . '/Config/admin-menu.php', 'menu.admin'
+            dirname(__DIR__) . '/Config/paymentmethods.php',
+            'payment_methods'
         );
 
         $this->mergeConfigFrom(
-            dirname(__DIR__) . '/Config/acl.php', 'acl'
+            dirname(__DIR__) . '/Config/system.php',
+            'core'
         );
     }
 }

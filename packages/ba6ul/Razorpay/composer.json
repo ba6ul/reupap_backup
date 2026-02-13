@@ -1,0 +1,27 @@
+{
+    "name": "ba6ul/razorpay",
+    "description": "Razorpay payment gateway for Bagisto by Ba6ul",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ba6ul\\Razorpay\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ba6ul\\Razorpay\\Providers\\RazorpayServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "razorpay/razorpay": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Babul Raj Singh",
+            "email": "babulsingh@haripin.com"
+        }
+    ]
+}

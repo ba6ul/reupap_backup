@@ -1,6 +1,6 @@
 <?php
 
-namespace Reupap\Razorpay\Providers;
+namespace ba6ul\Razorpay\Providers;
 
 use Konekt\Concord\BaseModuleServiceProvider;
 

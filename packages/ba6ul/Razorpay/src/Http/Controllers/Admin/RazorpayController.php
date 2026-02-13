@@ -1,6 +1,6 @@
 <?php
 
-namespace Reupap\Razorpay\Http\Controllers\Admin;
+namespace ba6ul\Razorpay\Http\Controllers\Admin;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\View\View;
