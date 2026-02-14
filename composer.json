@@ -96,7 +96,7 @@
             "Webkul\\Tax\\": "packages/Webkul/Tax/src",
             "Webkul\\Theme\\": "packages/Webkul/Theme/src",
             "Webkul\\User\\": "packages/Webkul/User/src",
-            "ba6ul\\Razorpay\\": "packages/ba6ul/razorpay/src/"
+            "ba6ul\\Razorpay\\": "packages/ba6ul/Razorpay/src/"
         }
     },
     "autoload-dev": {
