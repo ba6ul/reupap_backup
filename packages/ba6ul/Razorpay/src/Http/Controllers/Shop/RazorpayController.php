@@ -80,7 +80,7 @@ class RazorpayController extends Controller
     /**
      * 2. VERIFY: Handle the response from Razorpay
      */
-    public function verify(Request $request)
+    public function callback(Request $request)
     {
         $success = true;
         $error = "Payment Failed";
