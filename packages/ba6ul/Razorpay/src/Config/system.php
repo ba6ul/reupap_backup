@@ -7,6 +7,14 @@ return [
         'name'   => 'Razorpay',
         'sort'   => 6,
         'fields' => [
+             [
+                'name'          => 'active',
+                'title'         => 'admin::app.configuration.index.sales.payment-methods.status',
+                'type'          => 'boolean',
+                'validation'    => 'required',
+                'channel_based' => false,
+                'locale_based'  => true,
+            ],
             [
                 'name'          => 'title',
                 'title'         => 'Checkout Display Title',
@@ -45,14 +53,15 @@ return [
                 'channel_based' => false,
                 'locale_based'  => true,
             ],
+           
             [
-                'name'          => 'active',
-                'title'         => 'admin::app.configuration.index.sales.payment-methods.status',
+                'name'          => 'test_mode',
+                'title'         => 'Test Mode',
                 'type'          => 'boolean',
-                'validation'    => 'required',
-                'channel_based' => false,
-                'locale_based'  => true,
-            ]
+                'validation'    => 'boolean',
+                'channel_based' => true,
+                'locale_based'  => false,
+            ],
         ]
     ]
 ];
