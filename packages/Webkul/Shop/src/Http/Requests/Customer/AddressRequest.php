@@ -36,7 +36,10 @@ class AddressRequest extends FormRequest
             'city'         => ['required', 'string'],
             'postcode'     => core()->isPostCodeRequired() ? ['required', new PostCode] : [new PostCode],
             'phone'        => ['required', new PhoneNumber],
-            'vat_id'       => [(new VatIdRule)->setCountry($this->input('country'))],
+            //Ba6ul change
+            'vat_id'       => ['nullable'],
+            // Original code
+            //'vat_id'       => [(new VatIdRule)->setCountry($this->input('country'))],
             'email'        => ['required'],
         ];
     }

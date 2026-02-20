@@ -134,7 +134,10 @@
         {!! view_render_event('bagisto.shop.layout.footer.footer_text.before') !!}
 
         <p class="text-sm text-zinc-600 max-md:text-center">
+            <!--© Copyright 2025-26, REUPAP (Registered in India). All rights reserved.-->
+            
             @lang('shop::app.components.layouts.footer.footer-text', ['current_year'=> date('Y') ])
+             
         </p>
 
         {!! view_render_event('bagisto.shop.layout.footer.footer_text.after') !!}

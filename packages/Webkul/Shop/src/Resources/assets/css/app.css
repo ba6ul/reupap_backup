@@ -140,6 +140,16 @@ img.lazy {
         content: "\e913";
     }
 
+/* --- Custom Rupee Icon Fix --- */
+.icon-rupee:before {
+    content: "₹";
+    /* Override the bagisto-shop font just for this icon */
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+    font-weight: 300;
+    display: inline-block;
+    line-height: 1;
+}
+
     .icon-double-arrow:before {
         content: "\e914";
     }
